@@ -54,8 +54,15 @@ section{
 
 section.container{
     display: flex;
+    gap: 100px;
 }
 
+
+.text{
+    flex-basis: 100%;
+    margin-top: 0;
+    display: inline-block;
+}
 .text h1{
     font-size: 46px;
     line-height: 1.2;
@@ -77,10 +84,49 @@ section.container{
 button img{
     display: inline-block;
 }
-.big_image{
-   max-width: 400px;
+
+.img{
+flex-basis: 100%;
+position: relative;
+display: inline-block;
 }
 
-.img img{
-    width: 100px;
+
+.big_image{
+   max-width: 500px;
+}
+
+.img img:nth-child(2){
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: -60px;
+}
+
+.img img:nth-child(3){
+  width: 200px;
+  position: absolute;
+  top: 90px;
+  right: -30px;
+}
+
+.img img:nth-child(4){
+    width: 200px;
+    position: absolute;
+    top: 330px;
+    left: -60px;
+}
+
+.img img:nth-child(5){
+    width: 200px;
+    position: absolute;
+    top: 332px;
+    right: -40px;
+}
+
+.img img:last-child{
+    width: 200px;
+    position: absolute;
+    bottom: -20px;
+    left: 170px;
 }
