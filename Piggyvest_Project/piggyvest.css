@@ -74,6 +74,13 @@ section.container{
     width: 80%;
 }
 
+.buttons .button_download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
 .buttons button{
     margin: 0 8px;
     background-color: #122231;
@@ -97,35 +104,35 @@ display: inline-block;
 }
 
 .img img:nth-child(2){
-    width: 200px;
+    width: 190px;
     position: absolute;
     top: 130px;
     left: -60px;
 }
 
 .img img:nth-child(3){
-  width: 200px;
+  width: 190px;
   position: absolute;
   top: 90px;
   right: -30px;
 }
 
 .img img:nth-child(4){
-    width: 200px;
+    width: 190px;
     position: absolute;
     top: 330px;
     left: -60px;
 }
 
 .img img:nth-child(5){
-    width: 200px;
+    width: 190px;
     position: absolute;
     top: 332px;
     right: -40px;
 }
 
 .img img:last-child{
-    width: 200px;
+    width: 190px;
     position: absolute;
     bottom: -20px;
     left: 170px;
