@@ -20,6 +20,14 @@ body{
     margin: 0 auto;
 }
 
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    background-color: #f2f7f8;
+    width: 100%;
+    z-index: 999;
+}
 .nav_1 {
     display: flex;
 }
@@ -29,6 +37,10 @@ display: flex;
 gap: 1rem;
 list-style-type: none;
 margin-left: 2rem;
+}
+
+.nav_1 img, .nav_links, button:hover{
+    cursor: pointer;
 }
 
 button:first-child{
