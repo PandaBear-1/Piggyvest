@@ -24,10 +24,13 @@ nav{
     position: fixed;
     top: 0px;
     left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #f2f7f8;
     width: 100%;
     z-index: 999;
 }
+
 .nav_1 {
     display: flex;
 }
